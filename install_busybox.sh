@@ -5,5 +5,5 @@ rm -rf BUSYBOX_VERSION
 tar -xvf $BUSYBOX_VERSION.tar.bz2
 cd $BUSYBOX_VERSION
 make defconfig
-make CC=musl-gcc
+make CC=../$ROOTFS/usr/bin/musl-gcc
 make CONFIG_PREFIX=../$ROOTFS install
