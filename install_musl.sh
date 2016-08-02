@@ -1,6 +1,6 @@
 #!/bin/bash
 ROOTFS=rootfs
-MUSL_VERSION=musl-1.1.15
+MUSL_VERSION=musl-1.1.9
 rm -rf MUSL_VERSION
 tar -xvf $MUSL_VERSION.tar.gz
 cd $MUSL_VERSION
