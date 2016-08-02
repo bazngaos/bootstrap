@@ -1,0 +1,1 @@
+# Baznga OS bootstrap script
